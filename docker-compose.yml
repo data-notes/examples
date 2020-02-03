@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  datanote:
+    # command: sleep 1234567890
+    command: jupyter-notebook --no-browser --ip 0.0.0.0 --allow-root
+    build:
+      context: builds/datanote
+      # args:
+      #   PYTHON_RELEASE: ${PYTHON_RELEASE}
+    working_dir: /main
+    volumes:
+      - ./notebooks:/main
+    ports:
+      - "8888:8888"

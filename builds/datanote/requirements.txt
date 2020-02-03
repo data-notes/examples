@@ -1,0 +1,7 @@
+ipython
+notebook
+jupyter
+pandas
+seaborn
+jupyter_contrib_nbextensions
+RISE
