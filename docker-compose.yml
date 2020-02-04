@@ -8,8 +8,8 @@ services:
       context: builds/datanote
       # args:
       #   PYTHON_RELEASE: ${PYTHON_RELEASE}
-    working_dir: /main
+    working_dir: /main/notebooks
     volumes:
-      - ./notebooks:/main
+      - .:/main
     ports:
       - "8888:8888"

@@ -5,3 +5,10 @@ pandas
 seaborn
 jupyter_contrib_nbextensions
 RISE
+black
+flake8
+pandas-vet
+watermark
+fastapi
+nbdime
+dill
