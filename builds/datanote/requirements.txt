@@ -9,6 +9,8 @@ black
 flake8
 pandas-vet
 watermark
-fastapi
 nbdime
 dill
+fastapi
+uvicorn
+httpie
